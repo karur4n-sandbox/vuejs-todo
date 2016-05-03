@@ -1,0 +1,19 @@
+{
+  "name": "vuejs-todo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "vue": "^1.0.21"
+  },
+  "devDependencies": {
+    "browserify": "^13.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify src/app.js -o dist/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
